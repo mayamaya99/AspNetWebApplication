@@ -1,0 +1,113 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>@ViewData["Title"] - OfisiSpace</title>
+	<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="~/css/site.css" />
+	<link href="~/font-awesome/css/all.css" rel="stylesheet" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" integrity="sha256-2XFplPlrFClt0bIdPgpz8H7ojnk10H69xRqd9+uTShA=" crossorigin="anonymous" />
+</head>
+<body>
+	<header>
+		<nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-info border-bottom box-shadow mb-3">
+			<div class="container">
+				<a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">OfisiSpace</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+						aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+					<ul class="navbar-nav flex-grow-1">
+						<li class="nav-item">
+							<a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+
+
+
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<div class="container">
+		<main role="main" class="pb-3">
+			@RenderBody()
+		</main>
+	</div>
+	<br />
+	@*<footer class="border-top footer text-muted">*@
+	<footer class="footer bg-footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 col-12 mb-0 mb-md-4 pb-0 pb-md-2">
+
+
+					<p class="mt-4">Build responsive, mobile-first projects on the web with the world's most popular front-end component library.</p>
+				</div>
+
+				<div class="col-lg-3 col-md-4 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
+					<h4 class="text-light footer-head">Landing</h4>
+					<ul class="list-unstyled footer-list mt-4">
+						<li><a href="javascript:void(0)" class="text-foot"><i class="fa-regular fa-circle-dot"></i></i> Agency</a></li>
+						<li><a href="javascript:void(0)" class="text-foot"><i class="fa-regular fa-circle-dot"></i> Software</a></li>
+						<li><a href="javascript:void(0)" class="text-foot"><i class="fa-regular fa-circle-dot"></i> Startup</a></li>
+						<li><a href="javascript:void(0)" class="text-foot"><i class="fa-regular fa-circle-dot"></i> Business</a></li>
+			
+					</ul>
+				</div>
+
+				<div class="col-lg-2 col-md-4 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
+					<h4 class="text-light footer-head">About</h4>
+					<ul class="list-unstyled footer-list mt-4">
+						<li><a href="javascript:void(0)" class="text-foot"><i class="fa-regular fa-circle-dot"></i> About us</a></li>
+						<li><a href="javascript:void(0)" class="text-foot"><i class="fa-regular fa-circle-dot"></i> Services</a></li>
+						<li><a href="javascript:void(0)" class="text-foot"><i class="fa-regular fa-circle-dot"></i> Team</a></li>
+						<li><a href="javascript:void(0)" class="text-foot"><i class="fa-regular fa-circle-dot"></i> Terms Policy</a></li>
+		
+					</ul>
+				</div>
+				<div class="col-lg-3 col-md-4 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
+					<h4 class="text-light footer-head">Locations</h4>
+					<ul class="list-unstyled footer-list mt-4">
+						<li><a href="#" class="text-foot"><i class="fa-regular fa-circle-dot"></i> San Francisco</a></li>
+						<li><a href="#" class="text-foot"><i class="fa-regular fa-circle-dot"></i> Tokio</a></li>
+						<li><a href="#" class="text-foot"><i class="fa-regular fa-circle-dot"></i> South Korea</a></li>
+						<li><a href="#" class="text-foot"><i class="fa-regular fa-circle-dot"></i> Myanmar</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<footer class="footer bg-footer footer-bar">
+		<div class="container text-center">
+			<div class="row align-items-center">
+				<div class="col-sm-6">
+					<div class="text-sm-center">
+						&copy; 2022 - AspNetWebApplication - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+					</div>
+				</div>
+
+				<div class="col-sm-6 mt-4 mt-sm-0 pt-2 pt-sm-0">
+					<ul class="list-unstyled text-sm-right social-icon social mb-0">
+						<li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i class="fa-brands fa-facebook"></i></a></li>
+						<li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i class="fa-brands fa-instagram"></i></a></li>
+						<li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i class="fa-brands fa-twitter"></i></a></li>
+						<li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i class="fa-brands fa-google"></i></a></li>
+						<li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i class="fa-brands fa-linkedin"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+</footer>
+	
+	<script src="~/lib/jquery/dist/jquery.min.js"></script>
+	<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+	<script src="~/js/site.js" asp-append-version="true"></script>
+	@RenderSection("Scripts", required: false)
+</body>
+</html>
