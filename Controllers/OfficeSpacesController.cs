@@ -24,6 +24,11 @@ namespace AspNetWebApplication.Controllers
         {
             return View(await _context.OfficeSpace.ToListAsync());
         }
+        // GET: OfficeSpaces/ShowSearchForm
+        public async Task<IActionResult> ShowSearchForm()
+        {
+            return View(await _context.OfficeSpace.ToListAsync());
+        }
 
         // GET: OfficeSpaces/Details/5
         public async Task<IActionResult> Details(int? id)
