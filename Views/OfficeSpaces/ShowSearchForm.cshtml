@@ -1,23 +1,19 @@
-﻿@model AspNetWebApplication.Models.OfficeSpace
+﻿@*@model AspNetWebApplication.Models.OfficeSpace*@
 
-<h4>OfficeSpace</h4>
+<h4>Search for property</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
-        <form asp-action="ShowSearchForm">
+        <form asp-action="ShowPropertyResult">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
-                <label asp-for="PropertyType" class="control-label"></label>
-                <input asp-for="PropertyType" class="form-control" />
-                <span asp-validation-for="PropertyType" class="text-danger"></span>
+                <label for="PropertyType" class="control-label"></label>
+                <input name="PropertyType" class="form-control" />
+               
             </div>
+            
             <div class="form-group">
-                <label asp-for="PropertyPrice" class="control-label"></label>
-                <input asp-for="PropertyPrice" class="form-control" />
-                <span asp-validation-for="PropertyPrice" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+                <input type="submit" value="Search" class="btn btn-primary" />
             </div>
         </form>
     </div>

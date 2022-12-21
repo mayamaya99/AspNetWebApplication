@@ -27,7 +27,12 @@ namespace AspNetWebApplication.Controllers
         // GET: OfficeSpaces/ShowSearchForm
         public async Task<IActionResult> ShowSearchForm()
         {
-            return View(await _context.OfficeSpace.ToListAsync());
+            return View();
+        }
+        // POST: OfficeSpaces/ShowPropertyReult
+        public async Task<IActionResult> ShowPropertyResult(string propertyType)
+        {
+             return View("index",await _context.OfficeSpace.Where(p=>p.PropertyType.Contains(propertyType)).ToListAsync());
         }
 
         // GET: OfficeSpaces/Details/5
