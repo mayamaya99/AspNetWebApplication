@@ -628,17 +628,17 @@ h1 {
     }
 
     .col:nth-child(1) .image {
-        background-image: url(https://i.postimg.cc/bvmT8rxT/sieuwert-otterloo-aren8nutd1-Q-unsplash.jpg);
+        background-image: url(https://images.unsplash.com/photo-1541746972996-4e0b0f43e02a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fG9mZmljZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
         background-size: cover;
     }
 
     .col:nth-child(2) .image {
-        background-image: url(https://i.postimg.cc/ryB9qvrv/todd-kent-178j8t-Jr-Nlc-unsplash.jpg);
+        background-image: url(https://images.unsplash.com/photo-1541746972996-4e0b0f43e02a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fG9mZmljZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
         background-size: cover;
     }
 
     .col:nth-child(3) .image {
-        background-image: url(https://i.postimg.cc/x1y5xtqB/webaliser-TPTXZd9m-Oo-unsplash.jpg);
+        background-image: url(https://images.unsplash.com/photo-1541746972996-4e0b0f43e02a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fG9mZmljZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
         background-size: cover;
     }
 
