@@ -5,6 +5,7 @@
         public int Id { get; set; }
         public string PropertyType { get; set; }
         public string PropertyPrice { get; set; }
+        //public string MyProperty { get; set; }
         public OfficeSpace()
         {
 
